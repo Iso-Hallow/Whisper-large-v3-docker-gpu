@@ -35,8 +35,6 @@ cd whisper-large-v3-docker
 
 Соберите контейнер. При первой сборке будут загружены необходимые системные библиотеки (PyTorch, CUDA, ffmpeg).
 
-codeBash
-
 ```
 docker build -t whisper-web .
 ```
@@ -44,8 +42,6 @@ docker build -t whisper-web .
 ### 3. Запуск сервера
 
 Запустите контейнер, пробросив GPU и порт веб-интерфейса:
-
-codeBash
 
 ```
 docker run --rm --gpus all -p 7860:7860 whisper-web
