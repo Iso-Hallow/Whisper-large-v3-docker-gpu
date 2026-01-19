@@ -1,0 +1,3 @@
+torch
+faster-whisper
+gradio
